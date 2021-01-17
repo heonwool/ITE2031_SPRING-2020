@@ -1,0 +1,11 @@
+	lw 0 1 input
+	add 1 1 2
+	add 2 2 3
+	add 3 3 3
+	add 2 3 4
+	sw 0 2 result
+	noop
+	halt
+input	.fill 25
+result	.fill 0
+temp	.fill 10
